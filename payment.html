@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="payment-container">
+        <h2>Choose Payment Method</h2>
+        <div class="payment-options">
+            <div class="option">
+                <input type="radio" id="upi-option" name="payment-method" value="upi" checked>
+                <label for="upi-option">UPI</label>
+                <form action="8830081629@ibl" method="POST" class="upi-payment-form">
+                    <div class="input-group">
+                        <label for="upi-id">UPI ID</label>
+                        <input type="text" id="upi-id" name="upi-id " placeholder="yourname@upi" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="amount">Amount (₹)</label>
+                        <input type="number" id="amount" name="amount" min="1" step="any" required>
+                    </div>
+                    <button type="submit"><a href="8830081629@ibl"></a>pay with UPI</button>
+                </form>
+            </div>
+            <div class="option">
+                <input type="radio" id="card-option" name="payment-method" value="card">
+                <label for="card-option">Card</label>
+                <form action="Main page.html" method="POST" class="card-payment-form">
+                    <div class="input-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9101 1121" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="expiry-date">Expiry Date</label>
+                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                        <button type="submit">pay</button>
+                    </form>
