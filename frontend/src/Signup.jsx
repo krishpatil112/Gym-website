@@ -59,11 +59,11 @@ function Signup() {
     }
 
     return (
-        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
+        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100 bg-black ">
             <div className="bg-white p-3 rounded w-25">
                 <h2>Register</h2>
                 <form onSubmit={handleSubmit}>
-                    <div className="mb-3">
+                    <div className="mb-3" >
                         <label htmlFor="name">
                             <strong>Name</strong>
                         </label>
