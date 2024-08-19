@@ -1,0 +1,101 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #ab6767;
+    background: url(tricep\ workout.jpeg) no-repeat;
+    margin: 0;
+    padding: 0;
+  } */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(tricep\ workout.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #00ff0830; */
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    /* background-color: #fff; */
+    padding: 20px;
+    /* border-radius: 8px; */
+    box-shadow: 0 0 10px rgb(252, 246, 246);
+    transition: box-shadow 0.3s ease;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.051);
+    backdrop-filter: blur(9px);
+    /* background-color: rgba(4, 92, 255, 0.767); */
+  }
+  .container h2{
+    color: rgb(0 255 222);
+    align-items: center;
+    padding-left: 105px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+  }
+  
+ 
+  form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0);
+  }
+  
+ 
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: calc(105% - 20px);
+    padding: 10px;
+    border: 1px solid #d1000000;
+    
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #00ff0800;
+  } */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #1b671d;
+    width: 50%;
+    align-items: center;
+    
+    color: rgb(255, 255, 255);
+    padding: 12px 270px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 13, 255, 0.69);
+  }
+  
